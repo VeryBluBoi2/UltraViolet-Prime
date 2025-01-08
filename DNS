@@ -5,3 +5,8 @@ const port = process.env.PORT || 3000;
 app.listen(port, () => {
   console.log(`App listening on port: ${port}`);
 });
+
+
+# python web server
+if __name__ == '__main__':
+    app.run(debug=True, port=os.getenv("PORT", default=5000))
