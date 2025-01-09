@@ -1,5 +1,5 @@
 var updates = [
-    {message: "Welcome to the 3rd official release of Andyum!"}
+    {message: "This proxy is more like a backup if something ever happens to Interstellar"}
 ];
 var updatespage = document.getElementById("updatespage");
 for(let item of updates) {
